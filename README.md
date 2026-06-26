@@ -1,82 +1,102 @@
-# Vectorborne-disease
-Vectorborne-disease Project
 
-🌿 Vector-Borne Disease Prediction Using Machine Learning
+# Vectorborne-disease Project
+# 🌿 Vector-Borne Disease Prediction Using Machine Learning
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project focuses on analyzing and predicting vector-borne diseases using machine learning techniques. The goal is to identify patterns in the data and build predictive models that can assist in early disease detection.
+This project predicts vector-borne diseases using machine learning algorithms. It includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation. The objective is to develop an accurate predictive model that can support early disease detection and decision-making.
 
-🎯 Objectives
+---
 
-Analyze vector-borne disease dataset
+## 📂 Dataset
 
-Perform data cleaning and preprocessing
+- Dataset: Vector-Borne Disease Dataset
+- File Format: CSV
+- Features: Patient and disease-related attributes
+- Target Variable: Disease Prediction
 
-Apply machine learning models for prediction
+---
 
-Compare model performance
+## 🎯 Objectives
 
-Use explainable AI techniques for better understanding
+- Perform data cleaning and preprocessing
+- Conduct exploratory data analysis (EDA)
+- Train multiple machine learning models
+- Compare model performance
+- Evaluate results using standard metrics
 
-🛠 Tools & Technologies Used
+---
 
-Python 🐍
+## 🛠 Technologies Used
 
-Pandas
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- CatBoost
 
-NumPy
+---
 
-Scikit-learn
+## 🤖 Machine Learning Models
 
-Matplotlib
+- Logistic Regression
+- Random Forest
+- XGBoost
+- CatBoost
 
-Seaborn
+---
 
-XGBoost
+## 📊 Evaluation Metrics
 
-CatBoost
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- ROC-AUC Curve
 
-🤖 Machine Learning Models
+---
 
-Logistic Regression
+## 📈 Project Workflow
 
-Random Forest
+1. Data Collection
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Training
+6. Model Evaluation
+7. Prediction
 
-XGBoost
+---
 
-CatBoost
+## 🚀 Future Improvements
 
-📊 Evaluation Metrics
+- Hyperparameter tuning
+- Model deployment using Streamlit
+- Real-time prediction system
+- Deep learning approaches
+- Integration with cloud services
 
-Models were evaluated using:
 
-Accuracy Score
 
-Confusion Matrix
+## 📁 Repository Structure
 
-ROC Curve
 
-Precision, Recall, F1-Score
+Vectorborne-disease/
+│── Vector_Borne_Disease.ipynb
+│── train.csv
+│── test.csv
+│── README.md
+```
 
-🧠 Key Insights
 
-Data preprocessing significantly improves model performance
+## 👩‍💻 Author
 
-Ensemble models performed better than simple models
+**Fatima Hafeez**
 
-Feature relationships help understand disease patterns
+- Data Science Student
 
-🚀 Future Improvements
 
-Hyperparameter tuning
-
-Deployment as a web application
-
-Real-time disease prediction system
-
-Advanced deep learning models
-
-👩‍💻 Author
-
-Fatima Hafeez
